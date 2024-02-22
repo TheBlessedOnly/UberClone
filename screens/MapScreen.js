@@ -4,7 +4,7 @@ import React from 'react'
 const MapScreen = () => {
   return (
     <View>
-      <Text>MapScreen</Text>
+      <Text>This is Map  Screen</Text>
     </View>
   )
 }
