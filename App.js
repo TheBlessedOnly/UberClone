@@ -16,12 +16,11 @@ const Stack =  createStackNavigator();
     <Provider store={store}>
       <NavigationContainer>
         <SafeAreaProvider>
-          <Stack.Navigator>
-            <Stack.Screen name='Home' component={HomeScreen} options={{headerShown: false}} />
-            <Stack.Screen name="MapScreen" component={MapScreen} />
-            <Stack.Screen name="EatScreen" component={EatScreen} />
-          </Stack.Navigator> 
-          <HomeScreen/>
+            <Stack.Navigator>
+              <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false}}/>
+              <Stack.Screen name="MapScreen" component={MapScreen} />
+              <Stack.Screen name="EatScreen" component={EatScreen} />
+            </Stack.Navigator> 
         </SafeAreaProvider>
       </NavigationContainer>
     </Provider>
